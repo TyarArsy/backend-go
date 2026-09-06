@@ -6,6 +6,8 @@ Aplikasi microservice berbasis **Go 1.22** dan **Chi Router** yang dirancang seb
 
 ## 🚀 Endpoint API
 
+echo -e "\n<!-- CI Webhook Test: Sync main to development -->"
+
 | Method | Endpoint | Deskripsi | Contoh Response |
 |---|---|---|---|
 | `GET` | `/healthz` | Health check probe & metadata build CI | `{"status":"ok","build_number":"12","commit_sha":"a1b2c3d","commit_message":"feat: update handler"}` |
